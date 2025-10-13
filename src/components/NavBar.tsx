@@ -4,7 +4,7 @@ import ColorModeSwitch from "./ColorModeSwitch";
 
 const Navbar = () => {
   return (
-    <HStack justifyContent={"space-between"} padding="2%">
+    <HStack justifyContent={"space-between"} padding="1%">
       <Image src={logo} boxSize="50px" objectFit="cover" alt="Quantonix Logo" />
       <ColorModeSwitch />
     </HStack>
